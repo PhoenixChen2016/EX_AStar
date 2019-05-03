@@ -130,7 +130,7 @@ namespace AStar
 						continue;
 
 					if (x >= 0 && x < size.Width && y >= 0 && y < size.Height)
-						if (x == currentPoint.Location.X || y == currentPoint.Location.Y)
+						//if (x == currentPoint.Location.X || y == currentPoint.Location.Y)
 							yield return (x, y);
 				}
 		}
